@@ -32,7 +32,7 @@ class ProductoModel {
     );
 
     Map<String, dynamic> toJson() => {
-        "id"         : id,
+        // "id"         : id, Se comenta para no 'duplicar' el id en la infomación de Firebase
         "titulo"     : titulo,
         "valor"      : valor,
         "disponible" : disponible,
